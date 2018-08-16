@@ -70,3 +70,90 @@ table.rmdtable tr > td:first-child{
 table.rmdtable tr:nth-child(odd){
   background-color:#F32D60;
 }
+
+.fullimagewidth{
+  width: 700px;
+}
+.halfwidthimage{
+  width: 350px;
+}
+
+strong {
+  color: #F32D60;
+}
+
+.circle-text {
+  float: left;
+  display: table-cell;
+  height: 150px; /*change this and the width for the size of your initial circle*/
+  width: 150px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  line-height:5em;
+  /*make it pretty*/
+  background: #337EAB;
+  color: #fff;
+  font: 14px /*change this for font-size and font-family*/
+
+  
+}
+
+.circle-text-newline {
+  display: table-cell;
+  height: 150px; /*change this and the width for the size of your initial circle*/
+  width: 150px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  line-height:5em;
+
+  margin: 5px;
+  float: left;
+  clear: both;
+  margin-left: 12.5em;
+  /*make it pretty*/
+  background: #337EAB;
+  color: #fff;
+  font: 14px /*change this for font-size and font-family*/
+}
+.circle-text-newline2 {
+  display: table-cell;
+  height: 150px; /*change this and the width for the size of your initial circle*/
+  width: 150px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  line-height:5em;
+
+  margin: 5px;
+  float: left;
+  clear: both;
+  /*make it pretty*/
+  background: #337EAB;
+  color: #fff;
+  font: 14px /*change this for font-size and font-family*/
+}
+
+.circle-text-emphasis {
+  float: left;
+  display: table-cell;
+  height: 150px; /*change this and the width for the size of your initial circle*/
+  width: 150px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  line-height:5em;
+  /*make it pretty*/
+  background: #704B8A;
+  color: #fff;
+  font: 14px /*change this for font-size and font-family*/
+
+  
+}

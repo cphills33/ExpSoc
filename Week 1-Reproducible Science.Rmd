@@ -1,7 +1,7 @@
 ---
-title: "PSY 6937"
-subtitle: "Colloquium in Psychological Research"
-author: "Week 1: Tools"
+title: "SOP 3214"
+subtitle: "Experimental Social Psychology"
+author: "Week 1: Reproducible Science"
 output:
   ioslides_presentation:
     css: styles.css
@@ -36,9 +36,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Agenda
 > - Class structure
-> - Tool 1: Analysis tools
-> - Tool 2: Writing tools
-> - What do you want to learn?
+> - What makes a study convincing?
+> - The Scientific Method
+> - Transparent Science
 
 ## Class Format
 - Each class will usually consist of:
@@ -57,221 +57,271 @@ knitr::opts_chunk$set(echo = FALSE)
     
 ## Goals of this course
 - At the end of this course you will be able to:
-    - Define your research question
-    - Create a professional CV
-    - Learn recent developments in Psychology
+    - Critically evaluate social psychological research.
+    - Integrate your unique hypotheses with relevant published research.
+    - Design and build an experiment using modern tools.
+    - Recruit participants while protecting their rights as human subjects.
+    - Use data analysis software to evaluate social psychological research outcomes. 
+    - Report your research results in an oral presentation and in written form in accordance with APA guidelines. 
     
 ## Assignments
-> - 125 possible points
-> - CV (25 points)
-> - Research Proposal (50 points)
-> - Webpage (25 points)
-> - Presentation (25 points)
-> - **Must complete the research proposal**
-> - 75 points needed to pass. Plan your time accordingly
+|Assessment        |Group/Individual|Points|
+|:-----------------|:--------------:|:----:|
+|Class Notebooks   |Individual      |60    |
+|Online Homework   |Individual      |50    |
+|Review Exam       |Individual      |50    |
+|CITI Certification|Individual      |50    |
+|1st Qualtrics     |Individual      |10    |
+|Project Prep      |Individual      |40    |
+|Project Prep      |Group           |110   |
+|Final Paper       |Individual      |100   |
+|Final Presentation|Individual      |50    |
 
-## R (Analysis Tool 1)
-<div class="columns-2">
-According to  [r4stats:](http://r4stats.com/articles/popularity/)
-![](Fig_2a_ScholarlyImpact2016-3.png)
-![](Fig_2d_ScholarlyImpact2016.png)
+## Grading Scheme
+|Letter Grade|Grading Scale (%)|
+|:----------:|:---------------:|
+|A           |90-100           |
+|B+          |87-89            |
+|B           |80-86            |
+|C+          |77-79            |
+|C           |70-76            |
+|D           |60-69            |
+|F           |00-59            |
+
+## What makes a study convincing?
+> - low p-value
+> - lots of participants 
+> - probability sample 
+> - preregistration 
+> - replication
+> - can check the data myself
+
+## Write down everytime someone is surprised
+<video width="700" controls>
+  <source src="What is surprising.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+## When are we surprised?
+> - When an assumption is violated
+
+## What is a p-value?
+> - A p-value represents how surprising the data is, assuming the null hypothesis is true
+
+## What is a p-value?
+> - A p-value represents how surprising the data is, assuming the null hypothesis is true
+> - **Null hypothesis:** Harry is not a wizard
+> - **Alternative hypothesis:** Harry is a wizard
+> - **Data**: Hagrid told Harry he is a wizard. 
+> - Should we reject the null hypothesis? How surprising is this data, assuming Harry is not a wizard.
+
+## What is a p-value?
+> - A p-value represents how surprising the data is, assuming the null hypothesis is true
+> - A p-value is significant when it is less than .05
+> - In your mind, switch the word ‘significant’ to ‘surprising, assuming the null hypothesis is true’
+> - A p-value is the probability of seeing data as or more extreme than the current data, assuming the null hypothesis is true.
+
+## My p-value is less than .05
+- Does this mean there is a 95% probability the alternative hypothesis is true?
+
+## What is a p-value?
+> - A p-value represents how surprising the data is, assuming the null hypothesis is true
+> - Scientists use an alpha level to decide whether to reject the null hypothesis. It is usually set to p < .05.
+> - This does not mean there is a 95% chance the alternative hypothesis is correct.
+> - In fact, we never know if we were correct in rejecting the null hypothesis.
+> - We just know that in the long run if we set our alpha level to p < .05, we’ll never be wrong more than 5% of the time.
+
+## Flip a coin!
+- Or ask your phone to
+
+## What is an effect size?
+> - The magnitude of an effect
+
+## Are women more extraverted than men?
+<img class = "fullimagewidth" src="cohens d extroversion.png" width="700">
+
+## Do women report more negative affect than men?
+<img class = "fullimagewidth" src="cohens d negative affect.png" width="700">
+
+## Are women more agreeable than men?
+<img class = "fullimagewidth" src="cohens d agreeableness.png" width="700">
+
+## Think-Pair-Share
+- **Are women better coders than men?**
+- Break into groups of 4-6
+- Write your names and n-numbers on a piece of paper
+- **Women are better coders than men: p < .05, d = .04**
+- Imagine a man and a woman have applied to be a coder for your business. Would you automatically hire the woman? How much more likely would you want a randomly selected woman to be better at coding before you would use gender as a basis for hiring a coder?
+- Once your group has reached consensus, hand in your answers to the three questions.
+
+## What is statistical power?
+> - Assuming the null hypothesis is false, what is the probability the p-value will be less than .05?
+
+## What is statistical power?
+> - Assuming the null hypothesis is false, what is the probability the p-value will be less than .05?
+> - related to effect size and sample size
+> - Statistical power increases when you have a larger sample
+> - Statistical power increases when you have a larger effect
+> - Rule of thumb is to aim for 80% power
+
+## P-values and sample sizes
+<div style="float: left; width: 50%;">
+
+- Group A: M = 100
+- Group B: M = 106
+- (there is a real difference between these 2 groups)
+- 20 participants in each group
+- What is the p-value?
+
 </div>
-<div class="notes">
-In this course, we will be using one of the most popular statistical analysis programs: R
+<div style="float: right; width: 50%;">
 
-Courtesy of this website (Links to an external site.)Links to an external site., R was the second most popular statistical analysis program used in scholarly articles in 2016.
+<img class = "halfwidthimage" src="n=20.png" width="350">
 
-The long-term trend is for R to become the most popular statistical analysis program.
-
-You can see SPSS was by far the most popular, but its popularity has really decreased. SAS's popularity has also decreased.
-
-10 years from now I expect R to be the most popular stats program among psychologists. That means if you learn it now, you will have a marketable skill going forward. Lots of research laboratories will be looking to start analyzing their data in R and they will want to work with people like you who have experience with it (or you will, starting today!).
 </div>
 
-## RStudio
-- We won't work directly with the R GUI. Instead, we will work with R Studio.
-- RStudio provides many, many helpful functions and features
-    - These slides were created with RStudio!
-    - You can write papers that conform to APA style with RStudio
-    - You can make pretty graphs with RStudio
-    - You can make shareable output with RStudio
-- But why do any of these things with RStudio?
+## P-values and sample sizes
+<div style="float: left; width: 50%;">
 
-## Reproducible Science
-> - **Replication:** Using new data, can you replicate a previous finding?
+- Group A: M = 100
+- Group B: M = 106
+- (there is a real difference between these 2 groups)
+- 30 participants in each group
+- What is the p-value?
 
-> - **Reproducibility:** Using the same data, can you get the same results?
+</div>
+<div style="float: right; width: 50%;">
 
->- What are some reasons for reproducibility errors?
+<img class = "halfwidthimage" src="n=30.png" width="350">
 
-## Statcheck (Analysis Tool 2)
-- <statcheck.io>
-- Checks your p's, F's, t's, and df's
-- Statcheck is right about [95% of the time](http://www.sciencemag.org/news/2017/11/controversial-software-proving-surprisingly-accurate-spotting-errors-psychology-papers)
-- Statcheck checked 30 000 papers and found about [half contain at least one error](https://link.springer.com/article/10.3758%2Fs13428-015-0664-2).
+</div>
 
-## The GRIM Test
-- [The GRIM Test: A Simple Technique Detects Numerous Anomalies in the Reporting of Results in Psychology](http://sci-hub.tw/http://journals.sagepub.com/doi/abs/10.1177/1948550616673876)
-- Granularity-related inconsistency of means
-- Look at the sample size, look at the means. Are the means even possible?
-- Half of studies between 2011-2015 with Likert scales failed the GRIM test in the following journals:
-    - Psychological Science (PS)
-    - Journal of Experimental Psychology: General (JEP:G)
-    - Journal of Personality and Social Psychology (JPSP)
-    
-## Papaja (Writing Tool 1)
-- <https://github.com/crsh/papaja> 
-- Works with RStudio to create APA style consistent manuscripts
-- Never make a reproducibility mistake again!
-    - Put your analysis script right in the manuscript!
-    - Put the code to create your graphs, right in the manuscript
-    - Never mess around with headers and footers again
-    - Automatically create reference pages that update as you make changes
-    
-## Zotero (Writing Tool 2)
-- <https://www.zotero.org>
-- A reference manager
-- Other options include mendeley or endnotes or refworks
-- We will use zotero for this course because it integrates with RStudio and is free
+## P-values and sample sizes
+<div style="float: left; width: 50%;">
 
-## Grammarly (Writing Tool 3)
-- <https://www.grammarly.com>
-- Check spelling and basic grammar
-    - Excellent at catching passive voice
-    - Let's you know when you're being too wordy
-    - Not perfect but useful. It's like a fresh set of eyes.
-- I use it for all my writing
+- Group A: M = 100
+- Group B: M = 106
+- (there is a real difference between these 2 groups)
+- 50 participants in each group
+- What is the p-value?
 
-## 2019 NSF Graduate Research Fellowship Program
-- <https://www.fastlane.nsf.gov/grfp/Login.do> 
-- <https://www.nsf.gov/pubs/2012/nsf12599/nsf12599.htm>
-- 3 years of support at approximately $42 000 per year
-- The Personal Statement, Previous Research Experience, and Proposed Plan of Research essays each have a maximum length of two pages, including all references, citations, charts, figures, images, and lists of publications and presentations. 
-- Due last of week of October
-- **We will work on these essays as part of this class. You decide whether you want to submit**
+</div>
+<div style="float: right; width: 50%;">
 
-## The **challenge** of every thesis, article, and grant proposal
-> - This is where you communicate the contribution of your work 
-> - What do you want to learn?
-> - How are you going to learn it?
-> - What do you think will happen?
-> - Sometimes you might have objectives instead of hypotheses. But usually you want to write your objectives as though they are hypotheses because they probably are. Sometimes you have hypotheses and objectives. That's ok, all these rules can be broken.
+<img class = "halfwidthimage" src="n=50.png" width="350">
 
-## What do you want to learn
-- To learn x, we did y
-- Bad challenges focus on information rather than knowledge
-- Bad challenges focus on results rather than the meaning of results
+</div>
 
-## What do you want to learn (examples)
-> - how facial expressions moderate prejudice
-> - how favorable participants felt toward people displaying angry, neutral, and happy facial expressions.
-> - how men and women are represented in the cognitive schemas of social categories around the world (to learn x)
-> - how strongly prejudice against the men and women of social categories were related to prejudice against those categories overall (we did y)
+## P-values and sample sizes
+<div style="float: left; width: 50%;">
 
-## Writing Strategy
-- Get your idea onto the screen
-- Then check out these tips to make your writing more powerful
+- Group A: M = 100
+- Group B: M = 106
+- (there is a real difference between these 2 groups)
+- 100 participants in each group
+- What is the p-value?
 
-## Tips for writing sentences (1)
-> - Subject, verb, object
-> - Who is the sentence about? 
-> - What happened?
-> - What was the outcome?  
-> - Put the verb and subject as close together as possible
-> - The ice cream melted.
-> - The ice cream, which was strawberry, melted.
-> - Can you make this sentence more powerful without losing information?
+</div>
+<div style="float: right; width: 50%;">
 
-## Tips for writing sentences (2)
-> - **Topic**: the beginning of the sentence. Put old information here
-> - **Stress**: the end of the sentence. Put new information here. This holds the emotional weight of the sentence.
-> - In a multi-clause sentence, the ending of each clause is a *stress*.
-> - **Topic is second most important**. It should be short and clear. Main verb should immediately follow topic.
-> - **Middle is least important**. Put things that you don't want emphasized here. (or don't have this)
-> - **Stress is most important**. Put your key message here. Delete words that follow the word you want to be the stress.
-> - The strawberry ice cream melted on the table.
+<img class = "halfwidthimage" src="n=100.png" width="350">
 
-## Tips for writing sentences (3)
-> - What is the topic and what is the stress? What is the story?
-> - Viruses were not studied in the sea until 1989 yet are its most abundant biological entities.
-> - The most abundant biological entities in the sea are viruses, yet they were not studied until 1989.
-> - The most abundant biological entities in the sea were not studied until 1989: viruses.
-> - The placement of 'viruses', '1989', and 'most abundant biological entities in the sea' can tell up to six different stories
-> - Think about the story you are telling with each sentence you write
+</div>
 
-## Tips for writing sentences (4)
-> - What is the topic of your sentence???
-> - Is it you? Is that what you intend?
-> - Is it the authors of a paper? Smith (2001) found X.
-> - They should never be the topic of a sentence. X (Smith, 2001).
-> - Are you using filter phrases? There is evidence that X (Smith, 2001)
-> - Delete filter phrases! X (Smith, 2001)
+## What does a p-value tell us?
 
-## Tips for writing sentences (5)
-> - Avoid adverbs. Just use a stronger or weaker noun or verb.
-> - There can be exceptions but these adverbs are bad.
-> - Significant(ly), certain(ly), entire(ly), high(ly), quite, rather, real(ly), simple(ly), substantial(ly), very
-> - The immune system uses a highly effective control mechanism that efficiently discriminates between self and nonself.
+## Optional Stopping
+<div style="float: left; width: 50%;">
 
-## Tips for writing sentences (6)
+- This is a how a p-value changes as you add more participants.
 
-|Avoid Long French or Latin Word|Use Shorter Viking word (Anglo-Saxon)|
-|:-----------------------------:|:-----------------------------------:|
-|Duration (fr)                  |length or time                       |
-|Consume  (fr)                  |eat                                  |
-|Mortality (fr)                 |death                                |
-|Permit (fr)                    |let                                  |
-|Necesssary (fr)                |need                                 |
-|Demonstrate (L)                |show                                 |
-|Donate (L)                     |give                                 |
-|Initiate (L)                   |start                                |
-|Attempt (fr)                   |try (old french)                     |
-|Utilize (fr)                   |use (old french)                     |
-|Methodology (L)                |Method (also L)                      |
+- This represents the case where the null hypothesis is true.
 
-## Tips for writing sentences (7)
-|Use Verbs                |Avoid Nominalizations            |
-|:-----------------------:|:-------------------------------:|
-|Move                     |Movement                         |
-|Differ                   |Difference                       |
-|Suggest                  |Suggestion                       |
-|Interact                 |Interaction                      |
-|Analyze                  |Analysis                         |
-|Develop                  |Development                      |
-|Influenced               |had an influence on              |
-|Approached               |took an approach                 |
-|Yielded                  |The yield of the                 |
-|Associated               |The association was              |
+</div>
+<div style="float: right; width: 50%;">
 
-## Tips for writing sentences (8)
-|Fuzzy verbs (weak)|Action Verbs (Strong)|
-|:----------------:|:-------------------:|
-|occur             |modify               |
-|facilitate        |increase/decrease    |
-|conduct           |accomplish           |
-|implement         |create               |
-|affect            |invade               |
-|perform           |react                |
-|                  |inhibit              |
-|                  |disrupt              |
-|                  |accelerate           |
-|                  |migrate              |
+<img class = "halfwidthimage" src="p values and lots of participants.png" width="350">
 
-## Tips for writing sentences (9)
-- Always use active voice!
-    - Unless you want to hide the actor
-    - Or you want to focus on the 'acted on' thing  
+</div>
 
-|Voice       |Subject     |Verb        |Object      |
-|:----------:|:----------:|:----------:|:----------:|
-|Active      |John        |called      |Jane        |
-|            |Actor       |Action      |Acted-on    |
-|Passive     |Jane        |was called  |by John     |
-|            |Acted-on    |Action      |Actor       |
+## What does a p-value tell us?
+- To answer this we need to know:
+    - How many tests conducted
+    - How many participants
+
+## The Scientific Method {.build}
+
+
+<div class="circle-text">Design</div>
+<div class="circle-text" >Collect</div>
+<div class="circle-text" >Analyze</div>
+
+<div class="circle-text-newline">Analyze</div>
+  
+<div class="circle-text-newline">Analyze</div>
+  
+<div class="circle-text" >Publish! </div>
+
+
+## The Scientific Method {.build}
+
+
+<div class="circle-text">Design</div>
+<div class="circle-text" >Collect</div>
+<div class="circle-text" >Analyze</div>
+
+<div class="circle-text-newline2">Design</div>
+<div class="circle-text" >Collect</div>
+<div class="circle-text" >Analyze</div>
+
+<div class="circle-text-newline2">Design</div>
+<div class="circle-text" >Collect</div>
+<div class="circle-text" >Analyze</div>
+<div class="circle-text" >Publish! </div>
+
+## Preregistration
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LYfZr5poCkQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## Preregistration
+- Register details of a study beforehand so you don’t exercise researcher degrees of freedom later
+- Design
+- Sample size/Stopping rule
+- Analysis Plan and exclusion rules
+
+## External Validity
+- The extent to which results of a study can be generalized to other populations and settings
+- Exact replication: generalize to other labs
+- Conceptual replication: generalize to other operationalizations of variables
+- Other populations
+- Other experimenters
+- Replication plus extension: researchers replicate original study but add variables to test additional questions
+
+## Why is replication important to the scientific method?
+- <http://curatescience.org>
+
+## The Scientific Method {.build}
+
+<div class="circle-text">Design</div>
+<div class="circle-text" >Collect</div>
+<div class="circle-text" >Analyze</div>
+<div class="circle-text-emphasis" >Replicate</div>
+
+## Ego Depletion
+> - Willpower is like a muscle. It gets tired as you use it. So you have less willpower and doing a task that requires willpower.
+> - Haggar et al., 2010: Meta-analysis of 83 studies finds evidence for ego depletion (d = .63—medium)
+> - Carter & McCullough (2014): Another meta-analysis but correcting for small study effects (d = 0)
+> - Haggar et al., 2016: Many labs study (23 labs), 2141 participants. Ego depletion is a small effect (d ~= 0).
+
+## Open Science
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1rFWeTryiW4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Next week
-- Meet in library
+- No Class!
     - (I won't be here)
-    - Room 2102B
-- Submit elevator pitch assignment
+- Submit assignments on Canvas
+- Take the quiz!
 - Check Canvas for updates
+- TAKE THIS SURVEY
+    - <https://unf.co1.qualtrics.com/jfe/form/SV_0riDh46f9IBc6yx>
