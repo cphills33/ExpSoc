@@ -282,10 +282,12 @@ Your browser does not support the video tag.
 ## QRPs, HARKING, and P-Hacking
 QRP
 :    Questionable Research Practice
+
 - Almost 1/4 of American Psycholgists have used a QRP in the last 12 months (<https://psyarxiv.com/3v7hx/>)
 
 HARKING
-:    Hypothesizing after results known
+:    Hypothesizing after results known  
+
 
 p-hacking
 :    another phrase to describe a questionable research practice but usually with a focus on obtaining a significant p-value
@@ -307,6 +309,24 @@ p-hacking
 - Other populations
 - Other experimenters
 - Replication plus extension: researchers replicate original study but add variables to test additional questions
+
+## Replication vs. Reproduction
+Replication
+:    If I re-run your experiment, do I get the same results?
+
+- About 35% of Social Psychology experiments replicate
+
+Reproduction
+:    If I re-analyze your data, do I get the same results?
+
+In the journal cognition:
+
+- About 78% of data is available to be re-analyzed
+- About 60% of data is actually usable
+- Of 35 articles selected for a test:
+    - 11 could be reproduced
+    - 11 more could be reproduced with help from the authors
+    - 13 articles  not be reproduced even with author help
 
 ## Why is replication important to the scientific method?
 - <http://curatescience.org>
