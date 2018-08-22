@@ -348,6 +348,28 @@ In the journal cognition:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1rFWeTryiW4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+## Open Science
+
+- Benefits:
+    - This is what people think science is anyway
+    - make science more democratic and more meritocratic
+    
+- Solves:
+    - More people can be involved. More collaboration, more sharing of data and materials
+    - helps science to self-correct
+    
+- Cons:
+    - Takes more time initially
+    - (but saves time in the long run by making data and materials available)
+
+## What makes a study convincing?
+> - low p-value?
+> - No QRPs, p-hacking, or HARKING
+> - open science practices
+> - replication
+> - reproducibility
+> - construct, internal, external, and statistical validity
+
 ## Next week
 - No Class!
     - (I won't be here)
