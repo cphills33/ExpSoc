@@ -279,6 +279,17 @@ Your browser does not support the video tag.
 <div class="circle-text" >Analyze</div>
 <div class="circle-text" >Publish! </div>
 
+## QRPs, HARKING, and P-Hacking
+QRP
+:    Questionable Research Practice
+- Almost 1/4 of American Psycholgists have used a QRP in the last 12 months (<https://psyarxiv.com/3v7hx/>)
+
+HARKING
+:    Hypothesizing after results known
+
+p-hacking
+:    another phrase to describe a questionable research practice but usually with a focus on obtaining a significant p-value
+
 ## Preregistration
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LYfZr5poCkQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
