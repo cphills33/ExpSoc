@@ -50,9 +50,9 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Course Textbook
 - No textbook!
 - But I recommend:
-    - [R for Data Science](r4ds.had.co.nz)
+    - [R for Data Science: r4ds.had.co.nz](https://www.amazon.com/R-Data-Science-Hadley-Wickham/dp/1491910399/ref=as_li_ss_tl?ie=UTF8&qid=1469550189&sr=8-1&keywords=R+for+data+science&linkCode=sl1&tag=devtools-20&linkId=6fe0069f9605cf847ed96c191f4e84dd)
     - [Writing Science by Joshua Schimel](https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241/ref=sr_1_3?ie=UTF8&qid=1534241813&sr=8-3&keywords=writing+science)
-    - [Ten simple rules for structuring paper by PLOS Computational Biology Staff](journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619)
+    - [Ten simple rules for structuring paper by PLOS Computational Biology Staff](https://doi.org/10.1371/journal.pcbi.1005619)
     - [Writing for Psychology by Mark Mitchell and colleagues](https://www.amazon.com/Writing-Psychology-Mark-L-Mitchell/dp/1111840636/ref=sr_1_1?ie=UTF8&qid=1534242058&sr=8-1&keywords=writing+for+psychology)
     
 ## Goals of this course
