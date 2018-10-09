@@ -1,0 +1,198 @@
+---
+title: "SOP 3214"
+subtitle: "Experimental Social Psychology"
+author: "Notes on Writing"
+output:
+  ioslides_presentation:
+    css: styles.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+## Scientific Writing
+<div class="columns-2">
+
+> - You must write clearly
+
+> - You must write clearly
+
+![](fightclub.jpg)
+
+## Structure of a paper
+- **OCAR**
+- Opening: Grab audience attention (but which audience?)
+    - Start very wide for a general audience
+    - Start more narrowly for a specialist audience
+- Challenge: state your contribution (end of introduction)
+- Action: methods and results
+- Resolution: discussion
+
+## Introductions
+- Opening
+- Funnel (bridge)
+- Closing/Challenge
+- Which is most important?
+
+## The **challenge** of every thesis, article, and grant proposal
+> - This is where you communicate the contribution of your work 
+> - What do you want to learn?
+> - How are you going to learn it?
+> - What do you think will happen?
+> - Sometimes you might have objectives instead of hypotheses. But usually you want to write your objectives as though they are hypotheses because they probably are. Sometimes you have hypotheses and objectives. That's ok, all these rules can be broken.
+
+## What do you want to learn
+- To learn x, we did y
+- Bad challenges focus on information rather than knowledge
+- Bad challenges focus on results rather than the meaning of results
+
+## What do you want to learn (examples)
+> - how facial expressions moderate prejudice
+> - how favorable participants felt toward people displaying angry, neutral, and happy facial expressions.
+> - how men and women are represented in the cognitive schemas of social categories around the world (to learn x)
+> - how strongly prejudice against the men and women of social categories were related to prejudice against those categories overall (we did y)
+
+## The Opening
+> - Identity the problem that drives the research (What you want to learn)
+> - Introduce the key characters (the key variables)
+> - Target an audience (general vs. specialist)
+
+## Bad Openings
+> - Misdirect the reader by introducing non-essential characters
+> - Have no direction. They explain concepts that the audience alrady understands
+
+## The Bridge/Making an outline
+> - We don't have much time to write so we don't want to waste time writing a paper with the wrong structure.
+> - Outlines help with this
+> - Some outlines help more than others
+> - Start with Opening and Contribution
+> - create a bridge or funnel between them
+
+## Making an outline 2
+- Find all the articles about your topic
+- Group them into points or evidences
+    - identity is important
+    - prejudice is important
+    - Evaluative conditioning is a good way to reduce prejudice
+    - categorization leads to prejudice and other stuff
+    - identity, prejudice, and ID are all different
+    - ID is more important for predicting some types of discrimination
+    - attitudes might be causally related to ID
+    - changing ID also changes prejudice
+    
+## Making an outline 3
+> - put each point or evidence onto an index card (or use Scrivener or some kind of mind map software)
+> - Make a case argument
+> - You are a lawyer making a case to a jury. Be logical and rational but also tell a story.
+> - No one piece of evidence convinces the jury. Put the evidence in the best order. 
+> - Start more general, winnow down to the narrow.
+> - remove points that aren't directly related to your contribution. This is the key thing to do. Be ruthless.
+
+## Think-Pair-Share
+- Work in groups of 3 to 4
+- **Here is my Opening:** The present research investigated another manner in which implicit attitudes may be important in an intergroup context: their potential causal relationship with out-group identification.
+- **Here is my Contribution:** Provide new evidence for a close and causal relationship between two important intergroup biases (ID and Prejudice), as well as to inform us about processes related to bias reduction
+- Put together a bridge or funnel connecting my opening and my contribution
+- Don't need to use every point. In fact, probably shouldn't!
+
+## Writing Strategy
+- Get your idea onto the screen
+- Then check out these tips to make your writing more powerful
+
+## Tips for writing sentences (1)
+> - Subject, verb, object
+> - Who is the sentence about? 
+> - What happened?
+> - What was the outcome?  
+> - Put the verb and subject as close together as possible
+> - The ice cream melted.
+> - The ice cream, which was strawberry, melted.
+> - Can you make this sentence more powerful without losing information?
+
+## Tips for writing sentences (2)
+> - **Topic**: the beginning of the sentence. Put old information here
+> - **Stress**: the end of the sentence. Put new information here. This holds the emotional weight of the sentence.
+> - In a multi-clause sentence, the ending of each clause is a *stress*.
+> - **Topic is second most important**. It should be short and clear. Main verb should immediately follow topic.
+> - **Middle is least important**. Put things that you don't want emphasized here. (or don't have this)
+> - **Stress is most important**. Put your key message here. Delete words that follow the word you want to be the stress.
+> - The strawberry ice cream melted on the table.
+
+## Tips for writing sentences (3)
+> - What is the topic and what is the stress? What is the story?
+> - Viruses were not studied in the sea until 1989 yet are its most abundant biological entities.
+> - The most abundant biological entities in the sea are viruses, yet they were not studied until 1989.
+> - The most abundant biological entities in the sea were not studied until 1989: viruses.
+> - The placement of 'viruses', '1989', and 'most abundant biological entities in the sea' can tell up to six different stories
+> - Think about the story you are telling with each sentence you write
+
+## Tips for writing sentences (4)
+> - What is the topic of your sentence???
+> - Is it you? Is that what you intend?
+> - Is it the authors of a paper? Smith (2001) found X.
+> - They should never be the topic of a sentence. X (Smith, 2001).
+> - Are you using filter phrases? There is evidence that X (Smith, 2001)
+> - Delete filter phrases! X (Smith, 2001)
+
+## Tips for writing sentences (5)
+> - Avoid adverbs. Just use a stronger or weaker noun or verb.
+> - There can be exceptions but these adverbs are bad.
+> - Significant(ly), certain(ly), entire(ly), high(ly), quite, rather, real(ly), simple(ly), substantial(ly), very
+> - The immune system uses a highly effective control mechanism that efficiently discriminates between self and nonself.
+
+## Tips for writing sentences (6)
+
+|Avoid Long French or Latin Word|Use Shorter Viking word (Anglo-Saxon)|
+|:-----------------------------:|:-----------------------------------:|
+|Duration (fr)                  |length or time                       |
+|Consume  (fr)                  |eat                                  |
+|Mortality (fr)                 |death                                |
+|Permit (fr)                    |let                                  |
+|Necesssary (fr)                |need                                 |
+|Demonstrate (L)                |show                                 |
+|Donate (L)                     |give                                 |
+|Initiate (L)                   |start                                |
+|Attempt (fr)                   |try (old french)                     |
+|Utilize (fr)                   |use (old french)                     |
+|Methodology (L)                |Method (also L)                      |
+
+## Tips for writing sentences (7)
+|Use Verbs                |Avoid Nominalizations            |
+|:-----------------------:|:-------------------------------:|
+|Move                     |Movement                         |
+|Differ                   |Difference                       |
+|Suggest                  |Suggestion                       |
+|Interact                 |Interaction                      |
+|Analyze                  |Analysis                         |
+|Develop                  |Development                      |
+|Influenced               |had an influence on              |
+|Approached               |took an approach                 |
+|Yielded                  |The yield of the                 |
+|Associated               |The association was              |
+
+## Tips for writing sentences (8)
+|Fuzzy verbs (weak)|Action Verbs (Strong)|
+|:----------------:|:-------------------:|
+|occur             |modify               |
+|facilitate        |increase/decrease    |
+|conduct           |accomplish           |
+|implement         |create               |
+|affect            |invade               |
+|perform           |react                |
+|                  |inhibit              |
+|                  |disrupt              |
+|                  |accelerate           |
+|                  |migrate              |
+
+## Tips for writing sentences (9)
+- Always use active voice!
+    - Unless you want to hide the actor
+    - Or you want to focus on the 'acted on' thing  
+
+|Voice       |Subject     |Verb        |Object      |
+|:----------:|:----------:|:----------:|:----------:|
+|Active      |The zombies        |chased      |the dog        |
+|            |Actor       |Action      |Acted-on    |
+|Passive     |The dog        |was chased  |by zombies     |
+|            |Acted-on    |Action      |Actor       |
+
