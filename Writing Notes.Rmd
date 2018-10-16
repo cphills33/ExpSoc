@@ -52,6 +52,8 @@ knitr::opts_chunk$set(echo = FALSE)
 > - how men and women are represented in the cognitive schemas of social categories around the world (to learn x)
 > - how strongly prejudice against the men and women of social categories were related to prejudice against those categories overall (we did y)
 
+## The purpose of the first draft is not to get it right, but to get it written
+
 ## Word Sprint!
 > - Write a one-sentence statement about what you want learn (you have 1 minute)
 > - Write a one-sentence statement about how you will learn it (you have 1 minute)
