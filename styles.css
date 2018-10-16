@@ -78,6 +78,10 @@ table.rmdtable tr:nth-child(odd){
   width: 350px;
 }
 
+.threequarterimagewidth{
+  width: 500px;
+}
+
 strong {
   color: #F32D60;
 }

@@ -209,3 +209,5 @@ knitr::opts_chunk$set(echo = FALSE)
 |Passive     |The dog        |was chased  |by zombies     |
 |            |Acted-on    |Action      |Actor       |
 
+## Tips for writing sentences (10)
+<img class = "threequarterimagewidth" src="SentenceLength.jpg" width = "500">
